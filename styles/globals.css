@@ -1974,10 +1974,15 @@ button {
 }
 
 @media screen and (max-width: 350px) {
-
-  .bloginfo {
+   .bloginfo p{
+    width: 70%;
+   }
+  .blogauthor {
      display: flex;
      justify-content: center;
      align-items: center;
+  }
+  .blogauthor{
+
   }
 }
