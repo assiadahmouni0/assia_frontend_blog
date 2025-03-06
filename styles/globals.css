@@ -1972,3 +1972,12 @@ button {
     font-size: 35px;
   }
 }
+
+@media screen and (max-width: 350px) {
+
+  .bloginfo {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+  }
+}
