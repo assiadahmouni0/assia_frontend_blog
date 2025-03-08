@@ -132,7 +132,7 @@ export default function BlogPage() {
                   <div className="slug_profile_img">
                     <div className="image_bg_top0"></div>
                     <div className="image_bg_top1"></div>
-                    <img src="/img/home.png" alt="blogger" />
+                    <img src="/img/assia.jpg" alt="blogger" />
                   </div>
                 </div>
                 <h3>{process.env.NEXT_PUBLIC_APP_NAME}</h3>
