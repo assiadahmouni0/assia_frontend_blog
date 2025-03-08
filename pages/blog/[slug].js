@@ -136,10 +136,12 @@ export default function BlogPage() {
                   </div>
                 </div>
                 <h3>{process.env.NEXT_PUBLIC_APP_NAME}</h3>
-                <h4>Blogger</h4>
+                <h4>infirmière et étudiante en journalisme</h4>
                 <div className="social_talks flex flex-center gap-1 mt-2">
                   <div className="st_icon">
-                    <FaGithub />
+                     <Link href="⁄https://assiablog-git-main-assiadahmouni0s-projects.vercel.app/">
+                    <FaLinkedin />
+                     <Link ⁄>
                   </div>
                   <div className="st_icon">
                     <FaInstagram />
@@ -148,7 +150,6 @@ export default function BlogPage() {
                     <FaTwitter />
                   </div>
                   <div className="st_icon">
-                    <FaLinkedin />
                   </div>
                 </div>
               </div>
