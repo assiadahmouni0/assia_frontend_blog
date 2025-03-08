@@ -89,7 +89,7 @@ export default function Home() {
         <title>My Personal Blog</title>
         <meta name='description' content='This is my personal blog' />
         <meta name='viewport' content='width=device-width, initial-scale=1' />
-        <link rel='icon' href='/canva.png' />
+        <link rel='icon' href='/img/assia.jpg' />
       </Head>
       <section className='header_data_section'>
         <div className='container flex flex-sb w-100'>
@@ -111,7 +111,7 @@ export default function Home() {
           <div className='rightheader_img' data-aos='fade-left'>
             <div className='img_bg_top'></div>
             <div className='img_bg_top'></div>
-            <img src='/img/home.png' alt='blogger' />
+            <img src='/img/assia.jpg' alt='blogger' />
           </div>
         </div>
       </section>
@@ -151,7 +151,7 @@ export default function Home() {
                           <p>{extractPreviewText(blog.description)}</p>
                           <div className='blogauthor flex gap-1'>
                             <div className='blogaimg'>
-                              <img src='/img/home.png' alt='blogger' />
+                              <img src='/img/assia.jpg' alt='blogger' />
                             </div>
                             <div className='flex flex-col flex-left gap-05'>
                               <h4>{process.env.NEXT_PUBLIC_APP_NAME}</h4>
