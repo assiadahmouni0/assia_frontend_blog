@@ -95,7 +95,7 @@ export default function Home() {
         <div className='container flex flex-sb w-100'>
           <div className='leftheader_info' data-aos='fade-right'>
             <h1>
-              Hi i'm <span>Souhail</span>. <br /> Web Developer
+                  Hi i'm <span> {process.env.NEXT_PUBLIC_APP_NAME}</span>. <br /> Web Developer
             </h1>
             <h3>Specialized in Javascript, React and Next Js</h3>
             <div className='flex gap-2'>
