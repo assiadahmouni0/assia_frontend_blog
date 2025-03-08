@@ -10,8 +10,8 @@ export default function About() {
         {/* Profile Image */}
         <div className='mb-3'>
           <Image
-            src='/img/home.png' // Replace with your actual image path
-            alt='Souhail'
+            src='/img/assia.jpg' // Replace with your actual image path
+            alt='Assia'
             width={150}
             height={150}
             className='aboutimg'
